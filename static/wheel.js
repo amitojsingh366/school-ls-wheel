@@ -20,12 +20,14 @@ var padding = { top: 20, right: 40, bottom: 0, left: 0 },
 
 
 var data = [
-    { "label": "smtg", "value": 1, "task": "1" },
-    { "label": "smtg2", "value": 1, "task": "2" },
-    { "label": "smtg3", "value": 1, "task": "3" },
-    { "label": "smtg4", "value": 1, "task": "4" },
-    { "label": "smtg5", "value": 1, "task": "5" },
-    { "label": "smtg6", "value": 1, "task": "6" },
+    { "label": "1", "value": 1, "task": "Set goals and make them a reality" },
+    { "label": "2", "value": 1, "task": "Pick up a new hobby" },
+    { "label": "3", "value": 1, "task": "Help your parents" },
+    { "label": "4", "value": 1, "task": "Learn how to make a new dish" },
+    { "label": "5", "value": 1, "task": "Keep away from electroic gadgets for at least an hour" },
+    { "label": "6", "value": 1, "task": "Improve your communication skills" },
+    { "label": "7", "value": 1, "task": "Self Reflect" },
+    { "label": "8", "value": 1, "task": "Explore your creative side" },
 ];
 
 
