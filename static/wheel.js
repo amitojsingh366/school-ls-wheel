@@ -20,14 +20,14 @@ var padding = { top: 20, right: 40, bottom: 0, left: 0 },
 
 
 var data = [
-    { "label": "1", "value": 1, "task": "Set goals and make them a reality" },
-    { "label": "2", "value": 1, "task": "Pick up a new hobby" },
-    { "label": "3", "value": 1, "task": "Help your parents" },
-    { "label": "4", "value": 1, "task": "Learn how to make a new dish" },
-    { "label": "5", "value": 1, "task": "Keep away from electroic gadgets for at least an hour" },
-    { "label": "6", "value": 1, "task": "Improve your communication skills" },
-    { "label": "7", "value": 1, "task": "Self Reflect" },
-    { "label": "8", "value": 1, "task": "Explore your creative side" },
+    { "value": 1, "task": "Set goals and make them a reality" },
+    { "value": 1, "task": "Pick up a new hobby" },
+    { "value": 1, "task": "Help your parents" },
+    { "value": 1, "task": "Learn how to make a new dish" },
+    { "value": 1, "task": "Keep away from electroic gadgets for at least an hour" },
+    { "value": 1, "task": "Improve your communication skills" },
+    { "value": 1, "task": "Self Reflect" },
+    { "value": 1, "task": "Explore your creative side" },
 ];
 
 
@@ -68,7 +68,7 @@ arcs.append("text").attr("transform", function(d) {
     })
     .attr("text-anchor", "end")
     .text(function(d, i) {
-        return data[i].label;
+        return data[i].task;
     });
 
 container.on("click", spin);
