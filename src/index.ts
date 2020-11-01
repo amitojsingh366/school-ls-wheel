@@ -2,7 +2,7 @@ import express, { Application, Request, Response, NextFunction } from 'express';
 import path from "path";
 import serveindex from "serve-index";
 
-const port = 12345;
+const port = 69024;
 const app: Application = express();
 
 app.set("views", path.join(__dirname, "../views"));
