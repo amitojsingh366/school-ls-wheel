@@ -1,7 +1,13 @@
+:root {
+    color: white;
+}
+
 text {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 11px;
     pointer-events: none;
+    color: #99AAB5;
+    text-decoration-color: #99AAB5;
 }
 
 #chart {
