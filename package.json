@@ -1,0 +1,23 @@
+{
+  "name": "ls-wheel",
+  "version": "1.0.0",
+  "description": "ls wheel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wheel",
+    "ls"
+  ],
+  "author": "Adam Alvares,Amitoj Singh",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.6",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0"
+  }
+}
