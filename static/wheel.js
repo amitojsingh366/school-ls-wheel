@@ -6,7 +6,7 @@ const wheelColors = [
     "#42a5f5",
     "#00bcd4",
     "#009688",
-    "#607d8b",
+    "#607d8b"
 ];
 const random = Math.floor(Math.random() * wheelColors.length);
 var padding = { top: 20, right: 40, bottom: 0, left: 0 },
