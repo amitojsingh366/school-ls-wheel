@@ -24,7 +24,7 @@ var data = [
     { "value": 1, "task": "Pick up a new hobby" },
     { "value": 1, "task": "Help your parents" },
     { "value": 1, "task": "Learn how to make a new dish" },
-    { "value": 1, "task": "Keep away from electroic gadgets for at least an hour" },
+    { "value": 1, "task": "Keep away from electronic gadgets for at least an hour" },
     { "value": 1, "task": "Improve your communication skills" },
     { "value": 1, "task": "Self Reflect" },
     { "value": 1, "task": "Explore your creative side" },
