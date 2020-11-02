@@ -1,4 +1,4 @@
-const wheelColors = [
+var wheelColors = [
     "#ab47bc",
     "#ef5350",
     "#5c6bc0",
@@ -8,6 +8,7 @@ const wheelColors = [
     "#009688",
     "#607d8b"
 ];
+wheelColors = shuffArr(wheelColors);
 var padding = { top: 20, right: 40, bottom: 0, left: 0 },
     w = 500 - padding.left - padding.right,
     h = 500 - padding.top - padding.bottom,
@@ -24,7 +25,7 @@ var data = [
     { "value": 1, "task": "Pick up a new hobby" },
     { "value": 1, "task": "Help your parents" },
     { "value": 1, "task": "Learn how to make a new dish" },
-    { "value": 1, "task": "Keep away from electronic gadgets for at least an hour" },
+    { "value": 1, "task": "Keep away from electronic gadgets" },
     { "value": 1, "task": "Improve your communication skills" },
     { "value": 1, "task": "Self Reflect" },
     { "value": 1, "task": "Explore your creative side" },
@@ -66,7 +67,9 @@ arcs.append("text").attr("transform", function(d) {
         d.angle = (d.startAngle + d.endAngle) / 2;
         return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius - 10) + ")";
     })
-    .attr("text-anchor", "end")
+    .attr("class", "text-meow")
+
+.attr("text-anchor", "end")
     .text(function(d, i) {
         return data[i].task;
     });
@@ -144,4 +147,14 @@ function getRandomNumbers() {
     }
 
     return array;
+}
+
+function shuffArr(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * i)
+        const temp = array[i]
+        array[i] = array[j]
+        array[j] = temp
+    }
+    return array
 }

@@ -9,9 +9,10 @@ a{
 
 text {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     pointer-events: none;
     color: #99AAB5;
+    text-overflow: ellipsis;
     text-decoration-color: #99AAB5;
 }
 
