@@ -1,5 +1,5 @@
-# School LS Wheel
-This is the NMS LS Wheel. also here are some points to note:
+# 11-C LS Wheel
+This is the 11-C LS Wheel. also here are some points to note:
   - The LS Wheel was made using JavaScript (node js).
   Visuals were designed by using [Html](https://www.w3.org/html/) and [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
   - You can view it online here: [https://app.amitoj.net/school-ls-wheel/](https://app.amitoj.net/school-ls-wheel/) 
